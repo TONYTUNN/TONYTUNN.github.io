@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJECK 2</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <h1 style="text-align: center;">PROJECK 2</h1>
+    <div class="container">
+        <div class="list">
+            <div class="item" style="background-image:  url(/img/1.png);">
+                <div class="conten">
+                    <div class="name">TUNA</div>
+                    <div class="des">Lorem, ipsum dolor.</div>
+                    <button>see more</button>
+                </div>
+            </div>
+            <div class="item" style="background-image:  url(/img/5.png);">
+                <div class="conten">
+                    <div class="name">TUNA</div>
+                    <div class="des">Lorem, ipsum dolor.</div>
+                    <button>see more</button>
+                </div>
+            </div>
+            <div class="item" style="background-image:  url(/img/2.png);">
+                <div class="conten">
+                    <div class="name">TUNA</div>
+                    <div class="des">Lorem, ipsum dolor.</div>
+                    <button>see more</button>
+                </div>
+            </div>
+            <div class="item" style="background-image:  url(/img/3.png);">
+                <div class="conten">
+                    <div class="name">TUNA</div>
+                    <div class="des">Lorem, ipsum dolor.</div>
+                    <button>see more</button>
+                </div>
+            </div>
+            <div class="item" style="background-image:  url(/img/4.png);">
+                <div class="conten">
+                    <div class="name">TUNA</div>
+                    <div class="des">Lorem, ipsum dolor.</div>
+                    <button>see more</button>
+                </div>
+            </div>
+            <div class="item" style="background-image:  url(/img/5.png);">
+                <div class="conten">
+                    <div class="name">TUNA</div>
+                    <div class="des">Lorem, ipsum dolor.</div>
+                    <button>see more</button>
+                </div>
+            </div>
+            <div class="item" style="background-image:  url(/img/1.png);">
+                <div class="conten">
+                    <div class="name">TUNA</div>
+                    <div class="des">Lorem, ipsum dolor.</div>
+                    <button>see more</button>
+                </div>
+            </div>
+            <div class="buttons">
+                <button class="prev"><i class="fa-solid fa-chevron-left"></i></button>
+                <button class="next"><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.querySelector('.next').onclick = function() {
+            var lists = document.querySelectorAll('.item');
+            document.querySelector('.list').appendChild(lists[0]);
+        }
+        document.querySelector('.prev').onclick = function() {
+            var lists = document.querySelectorAll('.item');
+            document.querySelector('.list').appendChild(lists[0]);
+        }
+    </script>
+</body>
+
+</html>
